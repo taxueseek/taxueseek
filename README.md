@@ -1,53 +1,111 @@
+<p align="center">
+  <img src="assets/readme/hero.jpg" width="100%" alt="踏雪寻仙：雪原上，「寻」字拖出一条路，通向远处的「仙」">
+</p>
 
+<div align="center">
 
 # 踏雪寻仙 · taxueseek
 
-> 在 AI 时代寻仙问道，把人生决策、投资研究、创作表达，都炼成可复用的 Agent Skill。
+> 在 AI 时代寻仙问道，把人生决策、投资研究、创作表达，做成一个个可复用的 Agent Skill。
+>
+> In the age of AI, I turn life decisions, investment research, and creative work into reusable Agent Skills.
 
 [![X（Twitter）@TaXue2025](https://img.shields.io/twitter/follow/TaXue2025?style=for-the-badge&logo=x&logoColor=white&color=0f172a&labelColor=0f172a&label=X%20%40TaXue2025)](https://x.com/TaXue2025)
 [![GitHub Followers](https://img.shields.io/github/followers/taxueseek?style=for-the-badge&logo=github&logoColor=white&color=38bdf8&label=Followers)](https://github.com/taxueseek?tab=followers)
 [![Total Stars](https://img.shields.io/github/stars/taxueseek?style=for-the-badge&logo=github&logoColor=white&color=fbbf24&label=Total%20Stars)](https://github.com/taxueseek?tab=repositories)
-[![Public Repos](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Repositories&query=%24.length&color=0ea5e9&url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftaxueseek%2Frepos)](https://github.com/taxueseek?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Repositories&query=%24.public_repos&color=0ea5e9&url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftaxueseek)](https://github.com/taxueseek?tab=repositories)
+
+<p><a href="#zhongwen">中文</a> · <a href="#english">English</a></p>
 
 </div>
 
 ---
 
-## 关于我（About Me）
+<a id="zhongwen"></a>
 
-- 正在建造 Agent Skill 生态，为 Claude Code、Kimi Code、DeepSeek 等 AI 编程助手打造即插即用的技能包。
-- 把人生决策系统开源成了技能 taxueskills，用一套心法解决各种问题。
-- 让投资研究自动化，项目是 fund-investment-guide。
-- 让 AI 写作说人话，项目是 say-it-human。
-- 偶尔写写 Rust 终端程序，比如 kimix。
-- 日常使用 Python、TypeScript 和 Rust，长期关注多 Agent 编排与提示词工程，也研究投资和写作。
+我在做三件事。
 
-## 旗舰项目（Flagship Projects）
+## 给 Agent 用
 
-| 项目 | 一句话 | 数据 |
-|------|--------|------|
-| [**argo**](https://github.com/taxueseek/argo) | 专为 agent 打造的多语言搜索工具，覆盖中文、英文、学术、代码、购物、金融、新闻和百科。 | ![Stars](https://img.shields.io/github/stars/taxueseek/argo?style=flat-square&label=stars&color=fbbf24) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square) |
-| [**say-it-human**](https://github.com/taxueseek/say-it-human) | 专业消除 AI 味的写作 Skill，让文字有人的温度。 | ![Stars](https://img.shields.io/github/stars/taxueseek/say-it-human?style=flat-square&label=stars&color=fbbf24) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square) |
-| [**taxueskills**](https://github.com/taxueseek/taxueskills) | 踏雪寻仙人生决策系统，把模糊的问题变成清晰的行动。 | ![Stars](https://img.shields.io/github/stars/taxueseek/taxueskills?style=flat-square&label=stars&color=fbbf24) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square) |
-| [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) | 专业投资分析 Skill，研究、复盘与配置一体化。 | ![Stars](https://img.shields.io/github/stars/taxueseek/fund-investment-guide?style=flat-square&label=stars&color=fbbf24) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square) |
-| [**session-digger**](https://github.com/taxueseek/session-digger) | 跨环境会话历史挖掘与知识管理，支持 Claude、Grok、Kimi、Codex 等主流环境。 | ![Stars](https://img.shields.io/github/stars/taxueseek/session-digger?style=flat-square&label=stars&color=fbbf24) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square) |
-| [**kimix**](https://github.com/taxueseek/kimix) | Kimi 的终端 TUI 客户端，用 Rust 把 Agent 装进终端。 | ![Stars](https://img.shields.io/github/stars/taxueseek/kimix?style=flat-square&label=stars&color=fbbf24) ![Rust](https://img.shields.io/badge/-Rust-dea584?style=flat-square) |
+搜索、会话、终端，都做给 Agent 直接用。
 
-## DSH 生态（DeepSeek Harness Ecosystem）
+- [**argo**](https://github.com/taxueseek/argo) — 给 Agent 的多语言搜索和证据核验，不是给人看的摘要页。DeepSeek Harness 也能装
+- [**session-digger**](https://github.com/taxueseek/session-digger) — 把 Claude、Grok、Kimi、Codex 这些环境的会话变成可检索的记录
+- [**kimix**](https://github.com/taxueseek/kimix) — 用 Rust 写的 Kimi 终端客户端
+- [**dsh-files**](https://github.com/taxueseek/dsh-files) — DeepSeek Harness 里传文件、读 PDF / Word / Excel
 
-围绕 DeepSeek Harness（dsh）的一组插件与工具，正在持续建设中：
+## 把问题做成 Skill
 
-[`dsh-files`](https://github.com/taxueseek/dsh-files)、[`awesome-dsh-plugin`](https://github.com/taxueseek/awesome-dsh-plugin)、[`dsh-snippets`](https://github.com/taxueseek/dsh-snippets)、[`dsh-healthcheck`](https://github.com/taxueseek/dsh-healthcheck)、[`dsh-plugin-guard`](https://github.com/taxueseek/dsh-plugin-guard)、[`taxue-dsh-artisan`](https://github.com/taxueseek/taxue-dsh-artisan)
+决策、写作、投资，把反复要做的判断和表达，做成能复用的 Skill。
 
-## 我关注的方向（Interests）
+- [**taxueskills**](https://github.com/taxueseek/taxueskills) — 人生决策系统，把模糊的问题收成能动手的一步
+- [**say-it-human**](https://github.com/taxueseek/say-it-human) — 先标出哪里像机器写的，要不要改你自己说
+- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — 基金体检和同经理多基金选择
 
-关注 AI Agent、Agent Skill、多 Agent 编排和提示词工程，也持续研究个人知识管理、人生决策系统、量化与投资研究，以及写作与表达。日常使用 Rust、Python 和 TypeScript，常驻 Claude、Kimi 与 DeepSeek 生态。
+## 作品
 
-## 找到我（Find Me）
+下面分享几张作品。「道」和熊猫「晚秋」出自 [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style)，节气「立春」出自 [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid)。点图可以进对应仓库。
 
-- X（Twitter）：[@TaXue2025](https://x.com/TaXue2025)
-- 想法交流：欢迎在仓库的 Issues 里留言，或者到对应 skill 仓库提需求。
-- 合作、投稿或一起造轮子：直接开 issue 或发私信即可。
+<p align="center">
+  <a href="https://github.com/taxueseek/taxue-creative-style"><img src="assets/readme/proof-calligraphy.jpg" width="32%" alt="3D 书法「道」"></a>
+  <a href="https://github.com/taxueseek/taxue-creative-style"><img src="assets/readme/proof-autumn.jpg" width="32%" alt="治愈插画「晚秋」"></a>
+  <a href="https://github.com/taxueseek/taxue-solar-polaroid"><img src="assets/readme/proof-lichun.jpg" width="32%" alt="节气拍立得「立春」"></a>
+</p>
+
+## DeepSeek Harness
+
+已发布的插件，装上就能用：
+
+[`argo`](https://github.com/taxueseek/argo) · [`dsh-files`](https://github.com/taxueseek/dsh-files) · [`dsh-snippets`](https://github.com/taxueseek/dsh-snippets) · [`dsh-healthcheck`](https://github.com/taxueseek/dsh-healthcheck) · [`dsh-plugin-guard`](https://github.com/taxueseek/dsh-plugin-guard) · [`taxue-dsh-artisan`](https://github.com/taxueseek/taxue-dsh-artisan)
+
+## 找到我
+
+- X：[@TaXue2025](https://x.com/TaXue2025)
+- 某个 Skill 不好用，或想一起做：到对应仓库开 Issue
+
+---
+
+<a id="english"></a>
+
+I'm working on three things.
+
+## For Agents
+
+Search, sessions, and a terminal — built for agents to use directly.
+
+- [**argo**](https://github.com/taxueseek/argo) — multilingual search and evidence checks for agents, not a summary page for humans. Also a DeepSeek Harness plugin
+- [**session-digger**](https://github.com/taxueseek/session-digger) — turns Claude, Grok, Kimi, and Codex sessions into searchable records
+- [**kimix**](https://github.com/taxueseek/kimix) — a Kimi terminal client, written in Rust
+- [**dsh-files**](https://github.com/taxueseek/dsh-files) — send files in DeepSeek Harness; read PDF / Word / Excel
+
+## Turning problems into Skills
+
+Decisions, writing, investing — recurring judgment, packed as reusable Skills.
+
+- [**taxueskills**](https://github.com/taxueseek/taxueskills) — a life-decision system that turns a fuzzy problem into a next step you can take
+- [**say-it-human**](https://github.com/taxueseek/say-it-human) — flags the machine-written parts; you decide whether to change them
+- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — fund checkups, and how to pick among funds run by the same manager
+
+## Work
+
+A few pieces below. 「道」 and the panda 「晚秋」 are from [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style); the solar term 「立春」 is from [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid). Click an image to open the repo.
+
+<p align="center">
+  <a href="https://github.com/taxueseek/taxue-creative-style"><img src="assets/readme/proof-calligraphy.jpg" width="32%" alt="3D calligraphy 「道」"></a>
+  <a href="https://github.com/taxueseek/taxue-creative-style"><img src="assets/readme/proof-autumn.jpg" width="32%" alt="Healing illustration 「晚秋」"></a>
+  <a href="https://github.com/taxueseek/taxue-solar-polaroid"><img src="assets/readme/proof-lichun.jpg" width="32%" alt="Solar-term polaroid 「立春」"></a>
+</p>
+
+## DeepSeek Harness
+
+Published plugins. Install and use:
+
+[`argo`](https://github.com/taxueseek/argo) · [`dsh-files`](https://github.com/taxueseek/dsh-files) · [`dsh-snippets`](https://github.com/taxueseek/dsh-snippets) · [`dsh-healthcheck`](https://github.com/taxueseek/dsh-healthcheck) · [`dsh-plugin-guard`](https://github.com/taxueseek/dsh-plugin-guard) · [`taxue-dsh-artisan`](https://github.com/taxueseek/taxue-dsh-artisan)
+
+## Find me
+
+- X: [@TaXue2025](https://x.com/TaXue2025)
+- If a Skill is broken, or you want to build together: open an Issue on the repo
 
 ---
 
@@ -55,6 +113,6 @@
 
 > 晚来天欲雪，能饮一杯无？
 
-<sub>如果这里的某个 Skill 帮到了你，点个 Star 就是最好的支持。</sub>
+<sub>用得上的话，留个 Star 就好。 / If something here is useful, a star is plenty.</sub>
 
 </div>
