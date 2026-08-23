@@ -31,7 +31,7 @@
 
 - [**argo**](https://github.com/taxueseek/argo) — 给 Agent 的多语言搜索和证据核验，不是给人看的摘要页。DeepSeek Harness 也能装
 - [**session-digger**](https://github.com/taxueseek/session-digger) — 把 Claude、Grok、Kimi、Codex 这些环境的会话变成可检索的记录
-- [**kimix**](https://github.com/taxueseek/kimix) — 用 Rust 写的 Kimi 终端客户端
+- [**kimix**](https://github.com/taxueseek/kimix) — 高性能的通用 Agent 代理，跑在终端里
 - [**dsh-files**](https://github.com/taxueseek/dsh-files) — DeepSeek Harness 里传文件、读 PDF / Word / Excel
 
 ## 把问题做成 Skill
@@ -56,7 +56,12 @@
 
 已发布的插件，装上就能用：
 
-[`argo`](https://github.com/taxueseek/argo) · [`dsh-files`](https://github.com/taxueseek/dsh-files) · [`dsh-snippets`](https://github.com/taxueseek/dsh-snippets) · [`dsh-healthcheck`](https://github.com/taxueseek/dsh-healthcheck) · [`dsh-plugin-guard`](https://github.com/taxueseek/dsh-plugin-guard) · [`taxue-dsh-artisan`](https://github.com/taxueseek/taxue-dsh-artisan)
+- [**argo**](https://github.com/taxueseek/argo) — 把搜索和证据核验接到 DeepSeek Harness
+- [**dsh-files**](https://github.com/taxueseek/dsh-files) — 传文件，读 PDF / Word / Excel
+- [**dsh-snippets**](https://github.com/taxueseek/dsh-snippets) — 常用命令、网址、提示词存成片段，一条就能找回
+- [**dsh-healthcheck**](https://github.com/taxueseek/dsh-healthcheck) — 只读体检：磁盘、内存、延迟、插件是否落后
+- [**dsh-plugin-guard**](https://github.com/taxueseek/dsh-plugin-guard) — 装之前静态审计，装完后再校验，不执行目标插件
+- [**taxue-dsh-artisan**](https://github.com/taxueseek/taxue-dsh-artisan) — 提示词反推和优化，多供应商生图
 
 ## 找到我
 
@@ -75,7 +80,7 @@ Search, sessions, and a terminal — built for agents to use directly.
 
 - [**argo**](https://github.com/taxueseek/argo) — multilingual search and evidence checks for agents, not a summary page for humans. Also a DeepSeek Harness plugin
 - [**session-digger**](https://github.com/taxueseek/session-digger) — turns Claude, Grok, Kimi, and Codex sessions into searchable records
-- [**kimix**](https://github.com/taxueseek/kimix) — a Kimi terminal client, written in Rust
+- [**kimix**](https://github.com/taxueseek/kimix) — a high-performance, general-purpose agent for the terminal
 - [**dsh-files**](https://github.com/taxueseek/dsh-files) — send files in DeepSeek Harness; read PDF / Word / Excel
 
 ## Turning problems into Skills
@@ -100,7 +105,12 @@ A few pieces below. 「道」 and the panda 「晚秋」 are from [taxue-creativ
 
 Published plugins. Install and use:
 
-[`argo`](https://github.com/taxueseek/argo) · [`dsh-files`](https://github.com/taxueseek/dsh-files) · [`dsh-snippets`](https://github.com/taxueseek/dsh-snippets) · [`dsh-healthcheck`](https://github.com/taxueseek/dsh-healthcheck) · [`dsh-plugin-guard`](https://github.com/taxueseek/dsh-plugin-guard) · [`taxue-dsh-artisan`](https://github.com/taxueseek/taxue-dsh-artisan)
+- [**argo**](https://github.com/taxueseek/argo) — search and evidence checks inside DeepSeek Harness
+- [**dsh-files**](https://github.com/taxueseek/dsh-files) — send files; read PDF / Word / Excel
+- [**dsh-snippets**](https://github.com/taxueseek/dsh-snippets) — save commands, URLs, and prompts as snippets you can recall in one call
+- [**dsh-healthcheck**](https://github.com/taxueseek/dsh-healthcheck) — read-only checkup: disk, memory, latency, stale plugins
+- [**dsh-plugin-guard**](https://github.com/taxueseek/dsh-plugin-guard) — static audit before install, verify after; never runs the target plugin
+- [**taxue-dsh-artisan**](https://github.com/taxueseek/taxue-dsh-artisan) — reverse-engineer and refine prompts; generate images across providers
 
 ## Find me
 
