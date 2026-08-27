@@ -40,7 +40,7 @@
 
 - [**taxueskills**](https://github.com/taxueseek/taxueskills) — 人生决策系统，把模糊的问题收成能动手的一步
 - [**say-it-human**](https://github.com/taxueseek/say-it-human) — 先标出哪里像机器写的，要不要改你自己说
-- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — 基金体检和同经理多基金选择
+- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — 基金体检和同经理多基金选择，数据层与 argo 联动
 
 ## 作品
 
@@ -98,7 +98,7 @@ Decisions, writing, investing — recurring judgment, packed as reusable Skills.
 
 - [**taxueskills**](https://github.com/taxueseek/taxueskills) — a life-decision system that turns a fuzzy problem into a next step you can take
 - [**say-it-human**](https://github.com/taxueseek/say-it-human) — flags the machine-written parts; you decide whether to change them
-- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — fund checkups, and how to pick among funds run by the same manager
+- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — fund checkups, and how to pick among funds run by the same manager; data layer links into argo
 
 ## Work
 
