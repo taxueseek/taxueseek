@@ -52,16 +52,25 @@
   <a href="https://github.com/taxueseek/taxue-solar-polaroid"><img src="assets/readme/proof-lichun.jpg" width="32%" alt="节气拍立得「立春」"></a>
 </p>
 
-## DeepSeek Harness
+## DeepSeek Harness 插件
 
-已发布的插件，装上就能用：
+我的 DeepSeek Harness 插件矩阵，装上就能用。主打 argo，其余各管一摊。
 
-- [**argo**](https://github.com/taxueseek/argo) — 把搜索和证据核验接到 DeepSeek Harness
-- [**dsh-files**](https://github.com/taxueseek/dsh-files) — 传文件，读 PDF / Word / Excel
-- [**dsh-snippets**](https://github.com/taxueseek/dsh-snippets) — 常用命令、网址、提示词存成片段，一条就能找回
-- [**dsh-healthcheck**](https://github.com/taxueseek/dsh-healthcheck) — 只读体检：磁盘、内存、延迟、插件是否落后
-- [**dsh-plugin-guard**](https://github.com/taxueseek/dsh-plugin-guard) — 装之前静态审计，装完后再校验，不执行目标插件
-- [**taxue-dsh-artisan**](https://github.com/taxueseek/taxue-dsh-artisan) — 提示词反推和优化，多供应商生图
+### [argo](https://github.com/taxueseek/argo) · 给 Agent 的搜索基础设施
+
+- 150+ 引擎自动选路：中文、英文、日韩、学术、行情、购物、代码，按领域和语言分诊，不一律扫网页
+- 交付的是证据，不是链接清单：候选结果带可信度分解，Agent 能直接 fetch 复核，不撑爆上下文
+- 免费引擎优先，Key 全可选；也能当 MCP 服务接进 Claude Code / Cursor
+
+### 其他插件
+
+| 插件 | 一句话 |
+|------|--------|
+| [dsh-files](https://github.com/taxueseek/dsh-files) | 传文件、读 PDF / Word / Excel，会话之间互相隔离 |
+| [dsh-snippets](https://github.com/taxueseek/dsh-snippets) | 常用命令、网址、提示词存成片段，一条调用找回，零依赖 |
+| [dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | 只读体检：磁盘、内存、延迟、插件是否落后，带历史基线 |
+| [dsh-plugin-guard](https://github.com/taxueseek/dsh-plugin-guard) | 装前静态审计、装后哈希校验，从不执行目标插件 |
+| [taxue-dsh-artisan](https://github.com/taxueseek/taxue-dsh-artisan) | 提示词反推与优化，多供应商生图，支持后台异步出图 |
 
 ## 找到我
 
@@ -101,16 +110,25 @@ A few pieces below. 「道」 and the panda 「晚秋」 are from [taxue-creativ
   <a href="https://github.com/taxueseek/taxue-solar-polaroid"><img src="assets/readme/proof-lichun.jpg" width="32%" alt="Solar-term polaroid 「立春」"></a>
 </p>
 
-## DeepSeek Harness
+## DeepSeek Harness Plugins
 
-Published plugins. Install and use:
+My plugin lineup for DeepSeek Harness — install and go. argo is the flagship; the rest each do one job.
 
-- [**argo**](https://github.com/taxueseek/argo) — search and evidence checks inside DeepSeek Harness
-- [**dsh-files**](https://github.com/taxueseek/dsh-files) — send files; read PDF / Word / Excel
-- [**dsh-snippets**](https://github.com/taxueseek/dsh-snippets) — save commands, URLs, and prompts as snippets you can recall in one call
-- [**dsh-healthcheck**](https://github.com/taxueseek/dsh-healthcheck) — read-only checkup: disk, memory, latency, stale plugins
-- [**dsh-plugin-guard**](https://github.com/taxueseek/dsh-plugin-guard) — static audit before install, verify after; never runs the target plugin
-- [**taxue-dsh-artisan**](https://github.com/taxueseek/taxue-dsh-artisan) — reverse-engineer and refine prompts; generate images across providers
+### [argo](https://github.com/taxueseek/argo) · Search infrastructure for agents
+
+- 150+ engines, routed by domain and language: Chinese, English, Japanese/Korean, academic, market data, shopping, code
+- Delivers evidence, not link lists: ranked candidates with credibility breakdowns agents can fetch and verify
+- Free engines first, keys all optional; also plugs in as an MCP server for Claude Code / Cursor
+
+### Other plugins
+
+| Plugin | One-liner |
+|--------|-----------|
+| [dsh-files](https://github.com/taxueseek/dsh-files) | Send files, read PDF / Word / Excel; sessions stay isolated |
+| [dsh-snippets](https://github.com/taxueseek/dsh-snippets) | Save commands, URLs, and prompts as one-call snippets; zero dependencies |
+| [dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | Read-only checkup: disk, memory, latency, stale plugins, with history baselines |
+| [dsh-plugin-guard](https://github.com/taxueseek/dsh-plugin-guard) | Static audit before install, hash verification after; never runs the target plugin |
+| [taxue-dsh-artisan](https://github.com/taxueseek/taxue-dsh-artisan) | Reverse-engineer and refine prompts; multi-provider image generation with async background rendering |
 
 ## Find me
 
