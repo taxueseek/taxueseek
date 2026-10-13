@@ -40,7 +40,8 @@
 
 - [**taxueskills**](https://github.com/taxueseek/taxueskills) — 人生决策系统，把模糊的问题收成能动手的一步
 - [**say-it-human**](https://github.com/taxueseek/say-it-human) — 先标出哪里像机器写的，要不要改你自己说
-- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — 基金体检和同经理多基金选择，数据层与 argo 联动
+- [**taxue-invest**](https://github.com/taxueseek/taxue-invest) — 投资分析 skill 系列：11 个方法论技能 + 17 个数据源，覆盖个股、基金、资产配置、风险管理
+- [**ime-lexicon**](https://github.com/taxueseek/ime-lexicon) — 豆包 / 微信输入法个人词库工具：识别、导出、备份、纠错优化，搜索生成行业词库
 
 ## 作品
 
@@ -98,7 +99,8 @@ Decisions, writing, investing — recurring judgment, packed as reusable Skills.
 
 - [**taxueskills**](https://github.com/taxueseek/taxueskills) — a life-decision system that turns a fuzzy problem into a next step you can take
 - [**say-it-human**](https://github.com/taxueseek/say-it-human) — flags the machine-written parts; you decide whether to change them
-- [**fund-investment-guide**](https://github.com/taxueseek/fund-investment-guide) — fund checkups, and how to pick among funds run by the same manager; data layer links into argo
+- [**taxue-invest**](https://github.com/taxueseek/taxue-invest) — investment analysis skill series: 11 methodology skills + 17 data sources, covering stocks, funds, asset allocation, risk management
+- [**ime-lexicon**](https://github.com/taxueseek/ime-lexicon) — Doubao/WeType IME lexicon toolkit: recognize, export, backup, correct, and generate industry lexicons
 
 ## Work
 
