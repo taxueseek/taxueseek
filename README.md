@@ -31,7 +31,6 @@
 
 - [**argo**](https://github.com/taxueseek/argo) — 给 Agent 的多语言搜索和证据核验，不是给人看的摘要页。DeepSeek Harness 也能装
 - [**session-digger**](https://github.com/taxueseek/session-digger) — 把 Claude、Grok、Kimi、Codex 这些环境的会话变成可检索的记录
-- [**kimix**](https://github.com/taxueseek/kimix) — 高性能的通用 Agent 代理，跑在终端里
 - [**dsh-files**](https://github.com/taxueseek/dsh-files) — DeepSeek Harness 里传文件、读 PDF / Word / Excel
 
 ## 把问题做成 Skill
@@ -67,6 +66,7 @@
 
 | 插件 | 一句话 |
 |------|--------|
+| [dsh-models](https://github.com/taxueseek/dsh-models) | 模型选择 + 子代理路由 + 推理层级，三分区触发，搜索优先弹窗 |
 | [dsh-files](https://github.com/taxueseek/dsh-files) | 传文件、读 PDF / Word / Excel，会话之间互相隔离 |
 | [dsh-snippets](https://github.com/taxueseek/dsh-snippets) | 常用命令、网址、提示词存成片段，一条调用找回，零依赖 |
 | [dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | 只读体检：磁盘、内存、延迟、插件是否落后，带历史基线 |
@@ -90,7 +90,6 @@ Search, sessions, and a terminal — built for agents to use directly.
 
 - [**argo**](https://github.com/taxueseek/argo) — multilingual search and evidence checks for agents, not a summary page for humans. Also a DeepSeek Harness plugin
 - [**session-digger**](https://github.com/taxueseek/session-digger) — turns Claude, Grok, Kimi, and Codex sessions into searchable records
-- [**kimix**](https://github.com/taxueseek/kimix) — a high-performance, general-purpose agent for the terminal
 - [**dsh-files**](https://github.com/taxueseek/dsh-files) — send files in DeepSeek Harness; read PDF / Word / Excel
 
 ## Turning problems into Skills
@@ -126,6 +125,7 @@ My plugin lineup for DeepSeek Harness — install and go. argo is the flagship; 
 
 | Plugin | One-liner |
 |--------|-----------|
+| [dsh-models](https://github.com/taxueseek/dsh-models) | Model picker + subagent routing + reasoning effort; three-zone trigger, search-first popup |
 | [dsh-files](https://github.com/taxueseek/dsh-files) | Send files, read PDF / Word / Excel; sessions stay isolated |
 | [dsh-snippets](https://github.com/taxueseek/dsh-snippets) | Save commands, URLs, and prompts as one-call snippets; zero dependencies |
 | [dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | Read-only checkup: disk, memory, latency, stale plugins, with history baselines |
