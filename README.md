@@ -30,21 +30,21 @@
 搜索、会话、终端，都做给 Agent 直接用。
 
 - [**argo**](https://github.com/taxueseek/argo) — 给 Agent 的多语言搜索和证据核验，不是给人看的摘要页。DeepSeek Harness 也能装
-- [**session-digger**](https://github.com/taxueseek/session-digger) — 把 Claude、Grok、Kimi、Codex 这些环境的会话变成可检索的记录
 - [**dsh-files**](https://github.com/taxueseek/dsh-files) — DeepSeek Harness 里传文件、读 PDF / Word / Excel
+- [**session-digger**](https://github.com/taxueseek/session-digger) — 把 Claude、Grok、Kimi、Codex 这些环境的会话变成可检索的记录
 
 ## 把问题做成 Skill
 
 决策、写作、投资，把反复要做的判断和表达，做成能复用的 Skill。
 
-- [**taxueskills**](https://github.com/taxueseek/taxueskills) — 人生决策系统，把模糊的问题收成能动手的一步
-- [**say-it-human**](https://github.com/taxueseek/say-it-human) — 先标出哪里像机器写的，要不要改你自己说
+- [**plainspoken-writing**](https://github.com/taxueseek/plainspoken-writing) — 白描写作，专业消除 AI 味：先标出哪里像机器写的，要不要改你自己说
 - [**taxue-invest**](https://github.com/taxueseek/taxue-invest) — 投资分析 skill 系列：11 个方法论技能 + 17 个数据源，覆盖个股、基金、资产配置、风险管理
+- [**taxueskills**](https://github.com/taxueseek/taxueskills) — 人生决策系统，把模糊的问题收成能动手的一步
 - [**ime-lexicon**](https://github.com/taxueseek/ime-lexicon) — 豆包 / 微信输入法个人词库工具：识别、导出、备份、纠错优化，搜索生成行业词库
 
 ## 作品
 
-下面分享几张作品。「道」和熊猫「晚秋」出自 [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style)，节气「立春」出自 [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid)。点图可以进对应仓库。
+下面分享几张作品。「道」和熊猫「晚秋」出自 [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style)，节气「立春」出自 [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid)，把一句话或一张照片做成印刷质感海报封面的工具是 [taxue-halftone](https://github.com/taxueseek/taxue-halftone)。点图可以进对应仓库。
 
 <p align="center">
   <a href="https://github.com/taxueseek/taxue-creative-style"><img src="assets/readme/proof-calligraphy.jpg" width="32%" alt="3D 书法「道」"></a>
@@ -58,7 +58,7 @@
 
 ### [argo](https://github.com/taxueseek/argo) · 给 Agent 的搜索基础设施
 
-- 150+ 引擎自动选路：中文、英文、日韩、学术、行情、购物、代码，按领域和语言分诊，不一律扫网页
+- 200+ 引擎自动选路：中文、英文、日韩、学术、行情、购物、代码，按领域和语言分诊，不一律扫网页
 - 交付的是证据，不是链接清单：候选结果带可信度分解，Agent 能直接 fetch 复核，不撑爆上下文
 - 免费引擎优先，Key 全可选；也能当 MCP 服务接进 Claude Code / Cursor
 
@@ -72,6 +72,9 @@
 | [dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | 只读体检：磁盘、内存、延迟、插件是否落后，带历史基线 |
 | [dsh-plugin-guard](https://github.com/taxueseek/dsh-plugin-guard) | 装前静态审计、装后哈希校验，从不执行目标插件 |
 | [taxue-dsh-artisan](https://github.com/taxueseek/taxue-dsh-artisan) | 提示词反推与优化，多供应商生图，支持后台异步出图 |
+| [plainspoken-writing-dsh](https://github.com/taxueseek/plainspoken-writing-dsh) | 白描写作 DSH 版：AI 味诊断、机械预清理与改写校验，默认只诊断不改 |
+
+配套 skill：[plugin-fast-adapt](https://github.com/taxueseek/plugin-fast-adapt) — DSH 版本升级后自动适配插件破坏性变更，兼插件脚手架与宿主启动诊断；Claude Code / Agent Skills 也能装。
 
 ## 找到我
 
@@ -89,21 +92,21 @@ I'm working on three things.
 Search, sessions, and a terminal — built for agents to use directly.
 
 - [**argo**](https://github.com/taxueseek/argo) — multilingual search and evidence checks for agents, not a summary page for humans. Also a DeepSeek Harness plugin
-- [**session-digger**](https://github.com/taxueseek/session-digger) — turns Claude, Grok, Kimi, and Codex sessions into searchable records
 - [**dsh-files**](https://github.com/taxueseek/dsh-files) — send files in DeepSeek Harness; read PDF / Word / Excel
+- [**session-digger**](https://github.com/taxueseek/session-digger) — turns Claude, Grok, Kimi, and Codex sessions into searchable records
 
 ## Turning problems into Skills
 
 Decisions, writing, investing — recurring judgment, packed as reusable Skills.
 
-- [**taxueskills**](https://github.com/taxueseek/taxueskills) — a life-decision system that turns a fuzzy problem into a next step you can take
-- [**say-it-human**](https://github.com/taxueseek/say-it-human) — flags the machine-written parts; you decide whether to change them
+- [**plainspoken-writing**](https://github.com/taxueseek/plainspoken-writing) — plainspoken writing that strips the AI flavor: it flags the machine-written parts; you decide whether to change them
 - [**taxue-invest**](https://github.com/taxueseek/taxue-invest) — investment analysis skill series: 11 methodology skills + 17 data sources, covering stocks, funds, asset allocation, risk management
+- [**taxueskills**](https://github.com/taxueseek/taxueskills) — a life-decision system that turns a fuzzy problem into a next step you can take
 - [**ime-lexicon**](https://github.com/taxueseek/ime-lexicon) — Doubao/WeType IME lexicon toolkit: recognize, export, backup, correct, and generate industry lexicons
 
 ## Work
 
-A few pieces below. 「道」 and the panda 「晚秋」 are from [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style); the solar term 「立春」 is from [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid). Click an image to open the repo.
+A few pieces below. 「道」 and the panda 「晚秋」 are from [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style); the solar term 「立春」 is from [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid); [taxue-halftone](https://github.com/taxueseek/taxue-halftone) turns a sentence or a photo into a print-textured poster cover. Click an image to open the repo.
 
 <p align="center">
   <a href="https://github.com/taxueseek/taxue-creative-style"><img src="assets/readme/proof-calligraphy.jpg" width="32%" alt="3D calligraphy 「道」"></a>
@@ -117,7 +120,7 @@ My plugin lineup for DeepSeek Harness — install and go. argo is the flagship; 
 
 ### [argo](https://github.com/taxueseek/argo) · Search infrastructure for agents
 
-- 150+ engines, routed by domain and language: Chinese, English, Japanese/Korean, academic, market data, shopping, code
+- 200+ engines, routed by domain and language: Chinese, English, Japanese/Korean, academic, market data, shopping, code
 - Delivers evidence, not link lists: ranked candidates with credibility breakdowns agents can fetch and verify
 - Free engines first, keys all optional; also plugs in as an MCP server for Claude Code / Cursor
 
@@ -131,6 +134,9 @@ My plugin lineup for DeepSeek Harness — install and go. argo is the flagship; 
 | [dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | Read-only checkup: disk, memory, latency, stale plugins, with history baselines |
 | [dsh-plugin-guard](https://github.com/taxueseek/dsh-plugin-guard) | Static audit before install, hash verification after; never runs the target plugin |
 | [taxue-dsh-artisan](https://github.com/taxueseek/taxue-dsh-artisan) | Reverse-engineer and refine prompts; multi-provider image generation with async background rendering |
+| [plainspoken-writing-dsh](https://github.com/taxueseek/plainspoken-writing-dsh) | Plainspoken writing for DSH: AI-flavor diagnosis, mechanical pre-cleanup, rewrite verification; diagnose-only by default |
+
+Companion skill: [plugin-fast-adapt](https://github.com/taxueseek/plugin-fast-adapt) — adapts DSH plugins to breaking changes across upgrades, plus plugin scaffolding and host-boot diagnostics; also installable as a Claude Code / Agent Skills skill.
 
 ## Find me
 
